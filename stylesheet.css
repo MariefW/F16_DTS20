@@ -60,14 +60,7 @@ a {
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  display: block;
-}
-
-.menuku{
-  color:white;
-  float: right;
-  font-size: 85px;
-  padding: 21px 0;
+  display:none;
 }
 
 .fa {
