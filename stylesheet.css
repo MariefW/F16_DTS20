@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header{
+  background-color: rgba(116, 185, 255, 0.9);
+  position: fixed;
+  z-index:10;
+  top:0;
+  height: 65px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nama {
+  font-size: 25px;
+  color:white;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: block;
+}
+
+.menuku{
+  color:white;
+  float: right;
+  font-size: 85px;
+  padding: 21px 0;
+}
+
+.fa {
+  margin-right: 5px;
+}
