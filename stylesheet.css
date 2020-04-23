@@ -101,15 +101,9 @@ a {
 }
 
 /*BAGAIN UTAMA*/
-.container{
-	max-width: 1170px;
-	width: 100%;
-	padding: 0 15px;
-	margin: 0 auto;
-}
 
 .bagian-utama {
-  height:350px;	
+  height:500px;	
   padding: 150px 0 100px 0;
   background-image:url(background1.jpg);
   background-size: cover;
