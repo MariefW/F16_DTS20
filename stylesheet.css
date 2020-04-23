@@ -102,12 +102,12 @@ a {
 
 /*BAGAIN UTAMA*/
 .bagian-utama {
-	height:280px;	
-	padding: 150px 0 100px 0;
-	background-image:url(background1.jpg);
-	background-size: cover;
-	color: #222f3e ;
-	text-align: center;
+  height:350px;	
+  padding: 150px 0 100px 0;
+  background-image:url(background1.jpg);
+  background-size: cover;
+  color: #222f3e ;
+  text-align: center;
 }
 
 .bagian-utama h1 {
