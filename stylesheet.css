@@ -14,7 +14,6 @@ header{
   top:0;
   height: 65px;
   width: 100%;
-  opacity: 0.9;
 }
 
 .container {
@@ -65,4 +64,15 @@ a {
 
 .fa {
   margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.bar{
+  display: none;
 }
