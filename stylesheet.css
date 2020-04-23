@@ -27,9 +27,43 @@ a {
   text-decoration: none;
 }
 
-.nama {
+.kelompok {
   font-size: 25px;
-  color:white;
+  animation-name: logo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  0%   {color:white; }
+  25%  {color:grey; }
+  50%  {color:white; }
+  75%  {color:grey; }
+  100% {color:white; }
+}
+
+.menu-1{
+  animation-name: menu1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes menu1 {
+  0%   {font-size: 16px; }
+  50%  {font-size: 24px; }
+  100% {font-size: 16px; }
+}
+
+.menu-2{
+  animation-name: menu2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes menu2 {
+  0%   {font-size: 24px; }
+  50%  {font-size: 16px; }
+  100% {font-size: 24px; }
 }
 
 .header-left {
