@@ -102,8 +102,7 @@ a {
 
 /*BAGAIN UTAMA*/
 
-.bagian-utama {
-  height:500px;	
+.bagian-utama {	
   padding: 150px 0 100px 0;
   background-image:url(background1.jpg);
   background-size: cover;
