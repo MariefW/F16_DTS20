@@ -2,10 +2,49 @@
 	.bagian-utama h1{
 		font-size: 32px;
 		animation: none;
-	}
+  }
+  .heading h2 {
+    font-size: 20px;
+}
+.lesson {
+    width: 50%;
+    margin-bottom: 50px;
 }
 
-@media (max-width: 670px) {
+input, textarea {
+  width: 900px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+.contact-submit{
+  width: 900px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.form-formulir p{
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px; 
+}
+input, textarea {
+  width: 900px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+}
+
+@media all and (max-width: 670px) {
 
   .header-right{
     display:none;
@@ -21,9 +60,37 @@
     margin-right: 5px;
     margin-top:10px;
   }
-  
+  .contact-submit {
+    margin-left: 50px;
+  }
+  .form-formulir p{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px; 
+  }
+  input, textarea {
+    width: 390px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
   p{
     font-size:11px;
     margin-left:10px;
   }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+}
+.top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
 }
