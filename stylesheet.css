@@ -29,8 +29,17 @@ a {
 
 .kelompok {
   font-size: 25px;
+  font-style: oblique;
+  font-weight: 1000;
+}
+
+.kelompok a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
   animation-name: logo;
-  animation-duration: 4s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
 }
 
