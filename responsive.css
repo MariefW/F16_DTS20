@@ -14,4 +14,16 @@
   .menu-icon{
     display:block;
   }
+
+  .btn{
+    color: #FFF;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-top:10px;
+  }
+  
+  p{
+    font-size:11px;
+    margin-left:10px;
+  }
 }

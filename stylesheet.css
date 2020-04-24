@@ -137,3 +137,44 @@ a {
   50%  {font-size: 40px;}
   100% {font-size: 50px;}
 }
+
+/*Footer*/
+.footer{
+  height:65px;
+  padding:15px;
+  background-color:#2f3542;
+  color:#fff;
+}
+
+.btn{
+  color: #FFF;
+  font-size: 24px;
+  margin-right: 10px;
+  font-family: georgia, serif;
+  letter-spacing: -1px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  float: right;
+}
+
+.facebook { 
+  background:#3B5998; 
+  padding:2px 10px;
+}
+.twitter { 
+  background:#00ACED; 
+  padding:2px 10px; 
+}
+
+.instagram { 
+  background:#D33187; 
+  padding:2px 10px;
+}
+
+p{
+  font-family: georgia, serif;
+  opacity:0.8;
+  margin-left:40px;
+  margin-top:10px;
+}
