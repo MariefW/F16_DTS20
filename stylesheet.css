@@ -142,7 +142,8 @@ a {
 .footer{
   height:65px;
   padding:15px;
-  background-color:#2f3542;
+  background-color:black;
+  opacity:0.8;
   color:#fff;
 }
 
