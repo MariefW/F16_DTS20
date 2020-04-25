@@ -10,30 +10,27 @@
     width: 50%;
     margin-bottom: 50px;
 }
+/*ekstra 2*/
+.form-formulir{
+  flex-wrap:wrap;
+}
 
 input, textarea {
-  width: 900px;
+  width: auto;
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
-.contact-submit{
-  width: 900px;
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 30px;
-}
+
 .form-formulir p{
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 30px; 
 }
-input, textarea {
-  width: 900px;
+input,textarea {
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
@@ -42,6 +39,19 @@ input, textarea {
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
+input{
+width:80%;
+
+}
+textarea {
+width:80%;
+
+}
+.contact-submit {
+margin-left: 50px;
+width: 73%;
+}
+/*akhir ekstra 2*/
 }
 
 @media all and (max-width: 670px) {
@@ -60,17 +70,18 @@ input, textarea {
     margin-right: 5px;
     margin-top:10px;
   }
-  .contact-submit {
-    margin-left: 50px;
+  /*ekstra 2*/
+  .form-formulir{
+    flex-wrap: wrap;
   }
+
   .form-formulir p{
     margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px; 
   }
-  input, textarea {
-    width: 390px;
+  input,textarea {
     margin-top: 10px;
     margin-left: 50px;
     margin-right: 50px;
@@ -79,6 +90,19 @@ input, textarea {
     font-size: 18px;
     border: 1px solid #dee7ec;
 }
+input{
+  width:auto;
+ 
+}
+textarea {
+  width:73%;
+
+}
+.contact-submit {
+  margin-left: 10px;
+  width: 73%;
+}
+ /*akhir ekstra 2*/
   p{
     font-size:11px;
     margin-left:10px;

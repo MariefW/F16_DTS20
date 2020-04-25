@@ -169,7 +169,8 @@ a {
 
 /*Bagian ekstra 2*/
 .bagian-ekstra-2{
- 
+  background-image:url(background1.jpg);
+  background-size: cover;
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: left;
@@ -187,15 +188,33 @@ a {
   padding-bottom:15px;
   margin-bottom :50px;
   padding-left: 46px;
+  text-align: center;
 
 }
+.form-formulir{
+ border-width: 1pt;
+ border-style: dashed;
+ border-color: #00ACED;
+ 
+}
 input, textarea {
-    width: 400px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding: 20px;
-    font-size: 18px;
-    border: 1px solid #dee7ec;
+  padding: 20px 20px;
+  width: 90%;
+  background: none;
+  border: 1px solid #fff;
+  margin: 10px 10px;
+  color: white;
+  font-size: 15px;
+}
+.form-formulir{
+
+    display: flex;
+}
+.input-kiri{
+  flex-basis: 50%;
+}
+.input-kanan{
+  flex-basis: 50%;
 }
 .contact-submit {
     background-color: #cae1ed;
