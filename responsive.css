@@ -14,7 +14,9 @@
 .form-formulir{
   flex-wrap:wrap;
 }
-
+.img-responsive{
+  max-width: 100%;
+}
 input, textarea {
   width: auto;
   margin-top: 10px;
@@ -27,29 +29,31 @@ input, textarea {
 .form-formulir p{
   margin-top: 10px;
   margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 30px; 
 }
 input,textarea {
   margin-top: 10px;
   margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 30px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
-input{
-width:80%;
-
+.text-name{
+  width:600px;
+ 
+}
+.text-email{
+  width:600px;
+ 
 }
 textarea {
-width:80%;
+  width: 100%
 
 }
 .contact-submit {
 margin-left: 50px;
-width: 73%;
+width: 100%
 }
 /*akhir ekstra 2*/
 }
@@ -70,7 +74,12 @@ width: 73%;
     margin-right: 5px;
     margin-top:10px;
   }
+
   /*ekstra 2*/
+  .img-responsive{
+    max-width: 100%;
+    height: auto;
+  }
   .form-formulir{
     flex-wrap: wrap;
   }
@@ -83,24 +92,29 @@ width: 73%;
   }
   input,textarea {
     margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
     margin-bottom: 30px;
     padding: 20px;
     font-size: 18px;
     border: 1px solid #dee7ec;
 }
-input{
+
+
+.text-name{
+  width:auto;
+ 
+}
+.text-email{
   width:auto;
  
 }
 textarea {
-  width:73%;
+  height: auto
 
 }
 .contact-submit {
   margin-left: 10px;
-  width: 73%;
+  width: 100%
 }
  /*akhir ekstra 2*/
   p{
