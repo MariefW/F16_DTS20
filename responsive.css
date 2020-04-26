@@ -45,7 +45,19 @@
   flex-wrap:wrap;
 }
 .img-responsive{
-  max-width: 100%;
+  display: block;
+max-width: 100%;
+height: auto;
+padding-left: 5%;
+margin:auto;
+margin-top: 25%;
+}
+.img-kiri{
+  margin-left:15%;
+}
+.input-kanan{
+  flex-basis: 50%;
+  margin-left: 0%;
 }
 input, textarea {
   width: auto;
@@ -121,8 +133,12 @@ width: 100%
 
   /*ekstra 2*/
   .img-responsive{
+    display: block;
     max-width: 100%;
     height: auto;
+    padding-left: 5%;
+    margin:auto;
+    margin-top: 25%;
   }
   .form-formulir{
     flex-wrap: wrap;
@@ -159,6 +175,13 @@ textarea {
 .contact-submit {
   margin-left: 10px;
   width: 100%
+}
+	.img-kiri{
+  margin-left:0%;
+}
+.input-kanan{
+  flex-basis: 50%;
+  margin-left: 0%;
 }
  /*akhir ekstra 2*/
 .footer-copy p{
