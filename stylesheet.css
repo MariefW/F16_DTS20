@@ -116,17 +116,17 @@ a {
   padding: 200px 0 100px 0;
   background-image:url(background2.jpg);
   background-size: cover;
-/*  color: #222f3e;*/
+  color: #ecf0f1 ;
 opacity: 0.8;
   text-align: center;
 }
 
 .bagian-utama h1 {
-  opacity:0.9;
+  opacity:0.7;
   font-size: 50px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  text-shadow: 3px 3px 0px #D7DACC, 8px 8px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 3px 3px 0px #34495e, 8px 8px 0px rgba(0, 0, 0, 0.1);
   animation-name: example;
   animation-duration: 0.3s;
 }
