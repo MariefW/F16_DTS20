@@ -10,6 +10,36 @@
     width: 50%;
     margin-bottom: 50px;
 }
+
+/*Ekstra 1*/
+ .konten {
+    width: 35%;
+    margin-bottom: 50px;
+  }
+  
+  .Judul h2 {
+    font-size: 40px;
+  }
+
+  .konten{
+    margin-top: 25px;
+  }
+
+  .bawah{
+    margin-left: 65px;
+    margin-bottom: 100px;
+  }
+
+  .akhir{
+    margin-top: -5px;
+    margin-left: 210px;
+  }
+
+  .profil-text p{
+    font-size: 22px;
+  }
+/*akhir ekstra 1*/
+
 /*ekstra 2*/
 .form-formulir{
   flex-wrap:wrap;
@@ -74,6 +104,20 @@ width: 100%
     margin-right: 5px;
     margin-top:10px;
   }
+  /*ekstra 1*/
+  .konten {
+    width: 75%;
+    margin-left: 35px;
+  }
+  .akhir{
+    margin-left: 35px;
+  }
+
+  .profil-text p{
+    font-size: 18px;
+  }
+  /*akhir ekstra 1*/
+
 
   /*ekstra 2*/
   .img-responsive{
@@ -117,7 +161,7 @@ textarea {
   width: 100%
 }
  /*akhir ekstra 2*/
-  p{
+.footer-copy p{
     font-size:11px;
     margin-left:10px;
   }
